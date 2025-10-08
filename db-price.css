@@ -1,0 +1,35 @@
+table {
+
+    width: 100%; /* Set the width of the container */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border */
+
+}
+
+/* PRODUCTS PRICE STATIC DATABASE */
+
+:root {
+
+--id_8128_sk_deb_ub_qub_wh: "440$";
+--id_8256_sk_deb_ub_qub_wh: "440$";    
+--id_8512_sk_deb_ub_qub_wh: "450$";    
+--id_81000_sk_deb_ub_qub_wh: "470$";    
+  
+--id_16128_sk_deb_ub_qub_wh: "470$";
+--id_16256_sk_deb_ub_qub_wh: "470$";    
+--id_16512_sk_deb_ub_qub_wh: "480$";    
+--id_161000_sk_deb_ub_qub_wh: "500$";    
+  
+
+}
+
+
+
+.id_8128_sk_deb_ub_qub_wh::before {content: var(--id_8128_sk_deb_ub_qub_wh);}
+.id_8256_sk_deb_ub_qub_wh::before {content: var(--id_8256_sk_deb_ub_qub_wh);}
+.id_8512_sk_deb_ub_qub_wh::before {content: var(--id_8512_sk_deb_ub_qub_wh);}
+.id_81000_sk_deb_ub_qub_wh::before {content: var(--id_81000_sk_deb_ub_qub_wh);}
+.id_16128_sk_deb_ub_qub_wh::before {content: var(--id_16128_sk_deb_ub_qub_wh);}
+.id_16256_sk_deb_ub_qub_wh::before {content: var(--id_16256_sk_deb_ub_qub_wh);}
+.id_16512_sk_deb_ub_qub_wh::before {content: var(--id_16512_sk_deb_ub_qub_wh);}
+.id_161000_sk_deb_ub_qub_wh::before {content: var(--id_161000_sk_deb_ub_qub_wh);}
